@@ -43,10 +43,7 @@ Go to [https://openweathermap.org/api](https://openweathermap.org/api) and sign 
 Open `index.html` and find this line near the bottom inside the `<script>` tag:
 
 ```js
-const API_KEY = 'YOUR_API_KEY_HERE';
-```
 
-Replace `YOUR_API_KEY_HERE` with your actual key.
 
 ### 3. Add your background image
 
@@ -107,17 +104,11 @@ Both use `units=metric` so temperatures are in Celsius.
 
 ---
 
-## Demo Mode
-
-If the API key is left as `YOUR_API_KEY_HERE`, the app automatically loads demo data for **Thrissur, IN** so you can preview the UI without an API key.
-
----
 
 ## Known Limitations
 
 - The Spline "Built with Spline" watermark cannot be removed on the free plan
 - OpenWeatherMap free tier allows 60 calls/minute
-- Background image path must use forward slashes `/` not backslashes `\`
 
 ---
 
